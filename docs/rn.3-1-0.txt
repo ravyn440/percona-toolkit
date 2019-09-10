@@ -12,7 +12,7 @@ New features and improvements
   option limits the number of runs for which data are kept
 * :jirabug:`PT-1741`: Migration to a new MongoDB driver was done.
 * :jirabug:`PT-1761`: ``pt-online-schema-change`` will not run under MySQL
-  8.0.14 .. 8.0.17
+  8.0.14 .. 8.0.17 if the table has foreign keys
   .. note:: There is an error in MySQL from versions 8.0.14 up to the current
      8.0.17 that makes MySQL die under certain conditions when trying to rename
      a table. Since the last step for pt-online-schema-change is to rename the
